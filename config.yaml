@@ -1,0 +1,15 @@
+# config.yaml
+# Set these paths to match your local environment before running.
+
+paths:
+  working_dir: "."                          # directory where batch input files live
+  results_dir: "./Results"                  # processed output files
+  repeats_dir: "./Repeats"                  # repeat-case Excel files
+  log_dir: "./Log_files/4PLR_log_files"     # CSV log directory
+  historical_data: "./Run_files/historical_labels.csv"
+
+files:
+  batch_template: "batch_template.xlsx"     # rename from any lab-specific template name
+  auto_approve_log: "Autoapprove_log.csv"
+
+schema: "public"                            # SQL schema prefix (replaces any hardcoded schema)
